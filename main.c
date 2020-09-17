@@ -4,10 +4,14 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(void) {
-	char c;
-	printf("enter a character: ");
-	scanf("%c", &c);
 	
-	printf("input character is %c (%d), and the next one is %c (%d)\n",c,c,c+1, c+1);
+	int a;
+	float b;
+	
+	printf("input two integers : ");
+	scanf("%d %f", &a, &b);
+	
+	printf("result is %f\n", a/b);
+	
 	return 0;
 }
